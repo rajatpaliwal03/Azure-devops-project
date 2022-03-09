@@ -1,11 +1,6 @@
-# samplewebapp
-ASP.NET Web application deployment on Azure Kubernetes Services
+# AZURE DevOps challenge
 
-Azure Kubernetes Services:
-
-Agenda:
-	- ASP.NET Web application deployment on Azure Kubernetes Services
-		through Azure DevOps CI/CD
+Problem Statement:  Create a sample application using any technology along with microservices to demonstrate implementation of the DevOps principle using Azure services. Establish a pipeline for continuous integration, continuous testing, and continuous deployment.
 
 Flow:
 
@@ -15,6 +10,9 @@ Flow:
 - Build and Push Image (ACR Repository)
 - Deploy (AKS)
 	- Creation of deployment.yml and service.yml files
+
+![image](https://user-images.githubusercontent.com/79752341/157399500-c0d177df-36ef-4907-b61b-36e3950aec12.png)
+
 
 Commands:
 
@@ -35,3 +33,9 @@ Pre-defined Variables:
 $(Pipeline.Workspace)
 	- The local path on the agent where all folders for a given build pipeline are created.
 
+
+Web App:
+
+![image](https://user-images.githubusercontent.com/79752341/157399678-22df8583-c0b7-42e0-80a5-2a368f13f335.png)
+
+# Full docmentation in PDF inside. 
